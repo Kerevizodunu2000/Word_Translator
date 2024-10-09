@@ -3,7 +3,7 @@ A Python script for extracting, splitting, and translating text from Word docume
 
 ## Project Description
 
-This project reads text from Word documents, splits the content into individual sentences, and translates them using Google Translate. Additionally, users can choose to enable ChatGPT for translation, allowing them to compare the results between Google Translate and ChatGPT side by side. This tool is useful for users who want quick translations of Word documents with the option to see results from two different translation engines.
+  This project reads text from Word documents, splits the content into individual sentences, and translates them using Google Translate. Additionally, users can choose to enable ChatGPT for translation, allowing them to compare the results between Google Translate and ChatGPT side by side. This tool is useful for users who want quick translations of Word documents with the option to see results from two different translation engines.
 
 ---
 
@@ -37,7 +37,7 @@ To install and run the project, follow these steps:
 ---
 
 ## Usage
-When you run the script, select the Word file you want to translate.
+  When you run the script, select the Word file you want to translate.
 Choose whether to translate using only Google Translate or both Google Translate and ChatGPT.
 The script will generate both translation outputs (if ChatGPT is enabled) and display the results.
 Optionally, you can also format Excel files using the excel_formatter.py script.
@@ -69,16 +69,16 @@ For easier execution on Windows, a run_translator.bat file is provided. Simply d
 ---
 
 ## Development Reason
-This project idea came to me while I was working on a group assignment given by my professor in a course I’ve been taking for a while. The assignment was to translate a specific article, and after the group divided the tasks, I was left with the translation part. As I was working on the translation in the library, it struck me that I could develop a project to automatically extract all the sentences from my Word file and translate them one by one. That's how this project was born.
+  This project idea came to me while I was working on a group assignment given by my professor in a course I’ve been taking for a while. The assignment was to translate a specific article, and after the group divided the tasks, I was left with the translation part. As I was working on the translation in the library, it struck me that I could develop a project to automatically extract all the sentences from my Word file and translate them one by one. That's how this project was born.
 
-I plan to continue developing this project, adding features such as "PDF to PDF Translate," "PDF to Excel Translate," "Word to Word Translate," and incorporating more language options.
+  I plan to continue developing this project, adding features such as "PDF to PDF Translate," "PDF to Excel Translate," "Word to Word Translate," and incorporating more language options.
 
 ---
 
 ## OpenAI API Key Notice
-This project requires users to have an API key from OpenAI, which is obtained for a fee. As a student, I do not currently have access to this API key, and therefore, I was unable to fully test the parts of the project that rely on OpenAI's services. However, if I receive support from a donor, I plan to work on and improve those parts of the project.
+  This project requires users to have an API key from OpenAI, which is obtained for a fee. As a student, I do not currently have access to this API key, and therefore, I was unable to fully test the parts of the project that rely on OpenAI's services. However, if I receive support from a donor, I plan to work on and improve those parts of the project.
 
-If you'd like to reach out or support this project, feel free to contact me via the email provided below.
+  If you'd like to reach out or support this project, feel free to contact me via the email provided below.
 
 ---
 
