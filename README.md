@@ -27,6 +27,7 @@ To install and run the project, follow these steps:
 2. Install the necessary dependencies with the following command:
    ```bash
    pip install -r requirements.txt
+   ```
 3. Ensure that you have a .docx Word file ready for translation.
 4. Run the word_translator.py script:
   ```bash
@@ -46,13 +47,13 @@ Optionally, you can also format Excel files using the excel_formatter.py script.
 ## Requirements
 The project uses the following Python packages:
 
-openai
-python-docx
-deep-translator
-pandas
-inquirer
-PyGetWindow
-openpyxl
+- `openai`
+- `python-docx`
+- `deep-translator`
+- `pandas`
+- `inquirer`
+- `PyGetWindow`
+- `openpyxl`
 
 To install these dependencies, run:
   ```bash
@@ -67,14 +68,14 @@ For easier execution on Windows, a ForWindowsOpen.bat file is provided. Simply d
 
 ---
 
-Development Reason
+## Development Reason
 This project idea came to me while I was working on a group assignment given by my professor in a course I’ve been taking for a while. The assignment was to translate a specific article, and after the group divided the tasks, I was left with the translation part. As I was working on the translation in the library, it struck me that I could develop a project to automatically extract all the sentences from my Word file and translate them one by one. That's how this project was born.
 
 I plan to continue developing this project, adding features such as "PDF to PDF Translate," "PDF to Excel Translate," "Word to Word Translate," and incorporating more language options.
 
 ---
 
-OpenAI API Key Notice
+## OpenAI API Key Notice
 This project requires users to have an API key from OpenAI, which is obtained for a fee. As a student, I do not currently have access to this API key, and therefore, I was unable to fully test the parts of the project that rely on OpenAI's services. However, if I receive support from a donor, I plan to work on and improve those parts of the project.
 
 If you'd like to reach out or support this project, feel free to contact me via the email provided below.
@@ -84,5 +85,5 @@ If you'd like to reach out or support this project, feel free to contact me via 
 ## Contact
 For any questions or issues, feel free to reach out:
 
-## Project Owner: [Halil Şafak Şimşek]
-Email: [halil_tafak@hotmail.com]
+### Project Owner: [Halil Şafak Şimşek]
+### Email: [halil_tafak@hotmail.com]
