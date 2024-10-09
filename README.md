@@ -10,12 +10,13 @@ This project reads text from Word documents, splits the content into individual 
 ## Project Structure
 
 - **/Word_Translator**
-  - **`word_translator.py`** - The main script that handles Word document processing and translation.
-  - **`excel_formatter.py`** - A script for formatting Excel files if needed.
-  - **`ForWindowsOpen.bat`** - A batch file for easy execution on Windows systems.
-  - **`requirements.txt`** - List of necessary dependencies to run the project.
-  - **`README.md`** - Project documentation.
-
+  - **src**
+    - `word_translator.py` - The main script responsible for reading Word files, splitting sentences, and performing translations using Google Translate and ChatGPT.
+    - `excel_formatter.py` - A utility script that helps format Excel files (optional, based on project needs).
+    - `requirements.txt` - Lists the dependencies required to run the project.
+  - `ForWindowsOpen.bat` - A Windows batch file for easy execution of the translator script on Windows systems.
+  - `README.md` - This file, which explains the project’s functionality, usage, and structure.
+  
 ---
 
 ## Installation
@@ -26,13 +27,48 @@ To install and run the project, follow these steps:
 2. Install the necessary dependencies with the following command:
    ```bash
    pip install -r requirements.txt
-Ensure that you have a .docx Word file ready for translation.
-Run the word_translator.py script:
+3. Ensure that you have a .docx Word file ready for translation.
+4. Run the word_translator.py script:
   ```bash
   python3 word_translator.py
+  ```
 
-Usage
+---
+
+## Usage
 When you run the script, select the Word file you want to translate.
 Choose whether to translate using only Google Translate or both Google Translate and ChatGPT.
 The script will generate both translation outputs (if ChatGPT is enabled) and display the results.
 Optionally, you can also format Excel files using the excel_formatter.py script.
+
+---
+
+## Requirements
+The project uses the following Python packages:
+
+openai
+python-docx
+deep-translator
+pandas
+inquirer
+PyGetWindow
+openpyxl
+
+To install these dependencies, run:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+---
+
+
+## Batch File (Windows)
+For easier execution on Windows, a ForWindowsOpen.bat file is provided. Simply double-click the batch file to start the translator.
+
+---
+
+## Contact
+For any questions or issues, feel free to reach out:
+
+## Project Owner: [Halil Şafak Şimşek]
+Email: [halil_tafak@hotmail.com]
