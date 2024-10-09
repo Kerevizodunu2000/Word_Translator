@@ -14,7 +14,7 @@ This project reads text from Word documents, splits the content into individual 
     - `word_translator.py` - The main script responsible for reading Word files, splitting sentences, and performing translations using Google Translate and ChatGPT.
     - `excel_formatter.py` - A utility script that helps format Excel files (optional, based on project needs).
     - `requirements.txt` - Lists the dependencies required to run the project.
-  - `ForWindowsOpen.bat` - A Windows batch file for easy execution of the translator script on Windows systems.
+  - `run_translator.bat` - A Windows batch file for easy execution of the translator script on Windows systems.
   - `README.md` - This file, which explains the project’s functionality, usage, and structure.
   
 ---
@@ -28,8 +28,8 @@ To install and run the project, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-3. Ensure that you have a .docx Word file ready for translation.
-4. Run the word_translator.py script:
+4. Ensure that you have a .docx Word file ready for translation.
+5. Run the word_translator.py script:
   ```bash
   python3 word_translator.py
   ```
@@ -64,7 +64,7 @@ To install these dependencies, run:
 
 
 ## Batch File (Windows)
-For easier execution on Windows, a ForWindowsOpen.bat file is provided. Simply double-click the batch file to start the translator.
+For easier execution on Windows, a run_translator.bat file is provided. Simply double-click the batch file to start the translator.
 
 ---
 
